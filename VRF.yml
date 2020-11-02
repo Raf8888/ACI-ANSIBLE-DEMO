@@ -1,0 +1,12 @@
+- name: Add a new VRF to a tenant
+  cisco.aci.aci_vrf:
+    host: "{{ inventory_hostname }}"
+    username: "{{ username }}"
+    password: "{{ password }}"
+    vrf: vrf_lab
+    tenant: "{{ tenant }}"
+    descr: Lab VRF
+    policy_control_preference: enforced
+    policy_control_direction: ingress
+    state: present
+  delegate_to: localhost

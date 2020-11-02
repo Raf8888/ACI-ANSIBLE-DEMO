@@ -1,0 +1,7 @@
+[apic:vars]
+username=admin
+password=ciscopsdt
+ansible_python_interpreter="C:\Users\rasolima\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8"
+
+[apic]
+sandboxapicdc.cisco.com
